@@ -17,6 +17,7 @@ module.exports = {
         path: `${__dirname}/content`,
       },
     },
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
   ],
