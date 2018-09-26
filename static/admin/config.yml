@@ -1,9 +1,9 @@
 backend:
   name: git-gateway
 
-# Media files will be stored in the repo under images/uploads
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+# Media files will be stored in the repo under content/images/uploads
+media_folder: "content/images/uploads"
+# public_folder: "/images/uploads"
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog

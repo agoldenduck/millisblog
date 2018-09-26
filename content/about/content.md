@@ -1,3 +1,9 @@
+---
+layout: page
+title: About
+date: 2018-09-26
+---
+
 Find the repository [on GitHub](https://github.com/fabe/gatsby-universal).
 
 ```
