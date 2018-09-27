@@ -1,5 +1,5 @@
 ---
-layout: page
+type: page
 title: About
 date: 2018-09-26
 ---

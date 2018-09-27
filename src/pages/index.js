@@ -7,7 +7,7 @@ import { graphql } from 'gatsby';
 export default ({ data }) => (
   <Layout>
     <Box>
-      {data.allMarkdownRemark.edges.map(edge => (
+      {data.allMarkdownRemark && data.allMarkdownRemark.edges.map(edge => (
         <div>
           <Title>{edge.node.frontmatter.title}</Title>
 
@@ -28,7 +28,7 @@ export const query = graphql`
         node {
           frontmatter {
             title
-            layout
+            type
             thumbnail
           }
           html

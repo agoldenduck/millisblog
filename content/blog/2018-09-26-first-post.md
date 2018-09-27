@@ -1,5 +1,6 @@
 ---
 title: Our first (and last) breakfast in Copenhagen
+type: blog
 date: 2018-09-25T22:00:00.000Z
 thumbnail: /content/images/uploads/img_1266.jpg
 ---
@@ -17,7 +18,7 @@ It doesn’t quite feel real. After years of dreaming, saving and planning, Alex
 
 “They’re soooo great!”
 
-We find a spot for breakfast before going to deal with the housing office at the uni. They have vegan options marked in English on the menu, the height of luxury after trying to avoid lactose in dairy-loving France. We order a delicious spread – dark rye bread, bacon, avocado – and watch the street go by.  
+We find a spot for breakfast before going to deal with the housing office at the uni. They have vegan options marked in English on the menu, the height of luxury after trying to avoid lactose in dairy-loving France. We order a delicious spread – dark rye bread, bacon, avocado – and watch the street go by.
 
 “This is delicious.”
 
@@ -27,7 +28,7 @@ We find a spot for breakfast before going to deal with the housing office at the
 
 “It’s soooo great!”
 
-Only when we get the bill does our bubble of bliss come crashing down. Alex stares at the currency converter in disbelief. 
+Only when we get the bill does our bubble of bliss come crashing down. Alex stares at the currency converter in disbelief.
 
 “This is NOT so great,” he says.
 
