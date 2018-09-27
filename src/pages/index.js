@@ -21,14 +21,13 @@ export default ({ data }) => (
 export const query = graphql`
   query HomepageQuery {
     allMarkdownRemark(
-      filter: { frontmatter: { layout: { eq: "blog" } } },
+      filter: { frontmatter: { type: { eq: "blog" } } },
       sort: { fields: frontmatter___date, order: DESC }
     ){
       edges {
         node {
           frontmatter {
             title
-            type
             thumbnail
           }
           html
