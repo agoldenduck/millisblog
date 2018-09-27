@@ -1,5 +1,5 @@
 ---
-type: page
+collection: page
 title: Home
 date: 2018-09-26
 ---

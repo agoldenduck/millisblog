@@ -1,5 +1,6 @@
 ---
 title: Fifty days of grey
+collection: blog
 date: 2018-09-27T09:23:33.170Z
 thumbnail: /content/images/uploads/bosq3426.jpg
 ---

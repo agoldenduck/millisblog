@@ -1,5 +1,5 @@
 ---
-type: blog
+collection: blog
 title: Our first (and last) breakfast in Copenhagen
 date: 2018-09-25T22:00:00.000Z
 thumbnail: ''

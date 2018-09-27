@@ -1,6 +1,6 @@
 ---
 title: On your bikes
-type: blog
+collection: blog
 date: 2018-09-27T09:00:29.654Z
 thumbnail: /content/images/uploads/fullsizeoutput_8df.jpeg
 ---

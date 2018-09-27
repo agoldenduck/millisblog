@@ -21,7 +21,7 @@ export default ({ data }) => (
 export const query = graphql`
   query HomepageQuery {
     allMarkdownRemark(
-      filter: { frontmatter: { type: { eq: "blog" } } },
+      filter: { frontmatter: { collection: { eq: "blog" } } },
       sort: { fields: frontmatter___date, order: DESC }
     ){
       edges {
