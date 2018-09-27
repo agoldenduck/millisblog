@@ -15,5 +15,5 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date"}
-      - {label: "Feature Image (optional)", name: "thumbnail", widget: "image"}
+      - {label: "Feature Image (optional)", name: "thumbnail", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
