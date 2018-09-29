@@ -2,7 +2,7 @@
 title: On your bikes
 collection: blog
 date: 2018-09-27T09:00:29.654Z
-thumbnail: /content/images/uploads/fullsizeoutput_8df.jpeg
+img: /images/uploads/fullsizeoutput_8df.jpg
 ---
 Getting our own bicycles seems like an important step in our Danish journey. It’s akin to a right of passage. As we rush around taking care of more urgent matters - bed sheets, toilet paper, clean laundry - we pause to gaze wistfully at the streams of cyclists whizzing past us, their (almost always) blonde hair rippling gently in the wind. Alex practically drools each time we pass a bike shop. As the whirlwind of arrival gradually subsides, we find an afternoon to go shopping.
 

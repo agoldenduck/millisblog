@@ -3,7 +3,7 @@ backend:
 
 # Media files will be stored in the repo under content/images/uploads
 media_folder: "content/images/uploads"
-# public_folder: "/images/uploads"
+public_folder: "/images/uploads"
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
@@ -15,5 +15,5 @@ collections:
       - {label: "Collection", name: "collection", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date"}
-      - {label: "Feature Image (optional)", name: "thumbnail", widget: "image", required: false}
+      - {label: "Feature Image (optional)", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}

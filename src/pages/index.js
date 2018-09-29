@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'gatsby-image';
 import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
@@ -10,6 +11,14 @@ export default ({ data }) => (
       {data.allMarkdownRemark && data.allMarkdownRemark.edges.map(edge => (
         <div>
           <Title>{edge.node.frontmatter.title}</Title>
+
+          {edge.node.frontmatter.img && (
+            <Image
+              fixed={data.allImageSharp.edges.filter(
+                ed => edge.node.frontmatter.img.includes(ed.node.fixed.originalName)
+              ).map(ed => ed.node.fixed)[0]}
+            />
+          )}
 
           <div dangerouslySetInnerHTML={{ __html: edge.node.html }} />
         </div>
@@ -28,9 +37,20 @@ export const query = graphql`
         node {
           frontmatter {
             title
-            thumbnail
+            img
           }
           html
+        }
+      }
+    }
+
+    allImageSharp {
+      edges {
+        node {
+          fixed(width: 720) {
+            originalName
+            ...GatsbyImageSharpFixed
+          }
         }
       }
     }

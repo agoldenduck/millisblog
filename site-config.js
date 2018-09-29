@@ -1,8 +1,8 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `Notes from a Nordic Winter`,
-  siteTitleShort: `Nordic winter`,
+  siteTitle: `Notes from a Nordic winter`,
+  siteTitleShort: `Nordic notes`,
   siteDescription: `Amelia's thoughts and reflections while living in Denmark.`,
   siteUrl: `https://nordicnotes.dacresandco.com`,
   themeColor: `#000`,

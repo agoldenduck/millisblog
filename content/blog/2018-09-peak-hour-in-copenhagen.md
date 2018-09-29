@@ -2,7 +2,7 @@
 title: Peak hour in Copenhagen
 collection: blog
 date: 2018-09-27T09:19:07.395Z
-thumbnail: /content/images/uploads/dsc_0802.jpg
+img: /images/uploads/dsc_0802.jpg
 ---
 I’m still getting myself oriented in Copenhagen. Alex seems to carry a compass inside his brain at all times but I take some time working out where things are. Luckily in Copenhagen I can look for the stream of bicycles travelling to or from the city to help me find it.
 
