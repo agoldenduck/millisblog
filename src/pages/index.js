@@ -3,7 +3,16 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
 import { graphql } from 'gatsby';
-import { Image, HR } from './index.css.js';
+import Img from 'gatsby-image';
+import styled from 'styled-components';
+
+export const Image = styled(Img)`
+  margin-bottom: 2rem;
+`
+export const HR = styled.hr`
+  border: 0.1px rgba(0,0,0,0.1) solid;
+  margin: 3rem 1rem;
+`
 
 export default ({ data }) => (
   <Layout>
