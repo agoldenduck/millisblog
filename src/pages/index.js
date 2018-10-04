@@ -1,26 +1,28 @@
 import React from 'react';
-import Image from 'gatsby-image';
 import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
 import { graphql } from 'gatsby';
+import { Image, HR } from './index.css.js';
 
 export default ({ data }) => (
   <Layout>
     <Box>
-      {data.allMarkdownRemark && data.allMarkdownRemark.edges.map(edge => (
+      {data.allMarkdownRemark && data.allMarkdownRemark.edges.map((edge, i, arr) => (
         <div>
-          <Title>{edge.node.frontmatter.title}</Title>
+          <Title tag="h2">{edge.node.frontmatter.title}</Title>
 
           {edge.node.frontmatter.img && (
             <Image
-              fixed={data.allImageSharp.edges.filter(
-                ed => edge.node.frontmatter.img.includes(ed.node.fixed.originalName)
-              ).map(ed => ed.node.fixed)[0]}
+              fluid={data.allImageSharp.edges.filter(
+                ed => edge.node.frontmatter.img.includes(ed.node.fluid.originalName)
+              ).map(ed => ed.node.fluid)[0]}
             />
           )}
 
           <div dangerouslySetInnerHTML={{ __html: edge.node.html }} />
+
+          {i < arr.length - 1 && <HR />}
         </div>
       ))}
     </Box>
@@ -47,9 +49,9 @@ export const query = graphql`
     allImageSharp {
       edges {
         node {
-          fixed(width: 720) {
+          fluid(maxWidth: 700) {
             originalName
-            ...GatsbyImageSharpFixed
+            ...GatsbyImageSharpFluid
           }
         }
       }

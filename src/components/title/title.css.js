@@ -3,6 +3,7 @@ import MEDIA from 'helpers/mediaTemplates';
 
 export const Text = styled`
   display: block;
+  padding-bottom: ${({ impact }) => impact || '2rem'}
   font-weight: ${({ size }) => () => {
     switch (size) {
       case 'large':
