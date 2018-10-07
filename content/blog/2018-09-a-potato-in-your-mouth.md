@@ -1,8 +1,7 @@
 ---
-title: A potato in your mouth
 collection: blog
-date: 2018-09-27T09:24:29.176Z
-img: /images/uploads/fullsizeoutput_8df.jpg
+title: A potato in your mouth
+date: 2018-09-20T09:24:29.176Z
 ---
 Before coming to Denmark, I heard people joking that Danes speak like they have a potato in their mouth. I laughed along, not really sure what they meant. Surely they're exaggerating, I thought. That was until my first Danish language class.
 
