@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
+import { Link, StaticQuery, graphql } from 'gatsby';
+import Image from 'gatsby-image';
 import posed from 'react-pose';
-import { Container } from './header.css';
+import { Container, SiteTitle } from './header.css';
 import Title from 'components/title';
 import Nav from 'components/header/nav';
 
@@ -22,12 +23,28 @@ const AnimatedContainer = posed.div({
   },
 });
 
-const Header = ({ title }) => (
+const Header = ({ file, title }) => (
   <AnimatedContainer>
     <Container>
-      <Link to="/">
-        <Title tag="h1" impact>{title}</Title>
-      </Link>
+      <span></span>
+
+      {console.log(file, title)}
+
+      <SiteTitle>
+        <Image
+          fluid={file.childImageSharp.fluid}
+          style={{
+            borderRadius: 400,
+            width: 300,
+            boxShadow: '1px 1px 20px',
+            marginBottom: '2rem'
+          }}
+        />
+
+        <Link to="/">
+          <Title tag="h1" size="large" impact>{title}</Title>
+        </Link>
+      </SiteTitle>
 
       <Nav />
     </Container>
@@ -38,4 +55,21 @@ Header.propTypes = {
   title: PropTypes.string.isRequired,
 };
 
-export default Header;
+export default (props) => (
+  <StaticQuery
+    query={graphql`
+      query HeaderQuery {
+        file(absolutePath: { regex: "/heading.JPG$/" }) {
+          childImageSharp {
+            fluid(maxWidth:800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    `}
+    render={data => (
+      <Header {...data} {...props} />
+    )}
+  />
+);
