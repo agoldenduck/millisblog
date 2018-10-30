@@ -7,7 +7,7 @@ Before coming to Denmark, I heard people joking that Danes speak like they have 
 
 We sit around a table and I try to copy the words my friendly volunteer teacher is saying, making at least 8 attempts before I can achieve even close to the sound he is making. It seems to require keeping your tongue stuck down at the back of your throat, and skipping half the syllables. Suddenly, the potato thing starts to make sense.
 
-My teacher writes down a phrase and sends me to get a jug of water from the bar. I read it out to the extremely patient bartenders and, amazingly, they hand me a jug of water.
+My teacher writes down a phrase and sends me to get a jug of water from the bar. Amazingly, they work out what I’m saying and hand me a jug of water, though it’s possible they saw the piece of paper. 
 
 “Did I say it right?” I ask hopefully.
 
