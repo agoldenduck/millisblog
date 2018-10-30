@@ -1,8 +1,7 @@
 ---
 collection: blog
-title: Our first (and last) breakfast in Copenhagen
+title: Our first (and last) cafe breakfast
 date: 2018-09-03T22:00:00.000Z
-img: ''
 ---
 It doesn’t quite feel real. After years of dreaming, saving and planning, Alex and I are actually in Copenhagen. We wander around, looking for breakfast with our eyes wide and our mouths gaping. Within minutes, we fall head over heels in love with the city.
 
