@@ -21,10 +21,10 @@ export default ({ data }) => (
         <div>
           <Title tag="h2">{edge.node.frontmatter.title}</Title>
 
-          {edge.node.frontmatter.img && (
+          {edge.node.frontmatter.image && (
             <Image
               fluid={data.allImageSharp.edges.filter(
-                ed => edge.node.frontmatter.img.includes(ed.node.fluid.originalName)
+                ed => edge.node.frontmatter.image.includes(ed.node.fluid.originalName)
               ).map(ed => ed.node.fluid)[0]}
             />
           )}
@@ -48,7 +48,7 @@ export const query = graphql`
         node {
           frontmatter {
             title
-            img
+            image
           }
           html
         }
