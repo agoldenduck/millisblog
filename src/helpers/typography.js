@@ -1,7 +1,7 @@
 import Typography from 'typography'
 
 const typography = new Typography({
-  headerFontFamily: ['Amatic SC', 'Homemade Apple', 'cursive'],
+  headerFontFamily: ['Amatic SC', 'cursive'],
   googleFonts: [{
     name: 'Amatic SC',
     styles: ['400']
