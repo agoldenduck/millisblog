@@ -1,6 +1,6 @@
 ---
 collection: blog
-title: Adventures in Supermarket Shopping
+title: Adventures in supermarket shopping
 date: 2018-09-10T11:49:01.397Z
 ---
 I set off bravely for my first solo trip to the big supermarket. It’s a lot cheaper, and more confusing, than the friendly little ‘Irma’ market. Things go well to start with. I even find some rare vegetables that aren’t wrapped in plastic. After some frantic and fruitless googling about Danish supermarket etiquette, I get up the courage to ask a Dane whether I have to weigh the fresh produce myself. This tripped us up once or twice in France where you need to get a little barcode sticker to take to the check out. I hold up the apples and gesture towards the tiny weighing machine in the corner, but of course he has perfect English. 
