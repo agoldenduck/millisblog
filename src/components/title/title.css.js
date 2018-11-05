@@ -15,9 +15,9 @@ export const Text = styled`
   font-size: ${({ size }) => () => {
     switch (size) {
       case 'large':
-        return '3.2rem';
+        return '6rem';
       default:
-        return '2rem';
+        return '3.2rem';
     }
   }};
   line-height: 1.2;

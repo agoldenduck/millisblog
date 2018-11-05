@@ -26,9 +26,7 @@ const AnimatedContainer = posed.div({
 const Header = ({ file, title }) => (
   <AnimatedContainer>
     <Container>
-      <span></span>
-
-      {console.log(file, title)}
+      <span />
 
       <SiteTitle>
         <Image
@@ -36,7 +34,7 @@ const Header = ({ file, title }) => (
           style={{
             borderRadius: 400,
             width: 300,
-            boxShadow: '1px 1px 20px',
+            margin: 'auto',
             marginBottom: '2rem'
           }}
         />

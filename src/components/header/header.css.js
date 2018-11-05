@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import NavDiv from 'components/header/nav'
 
 export const Container = styled.header`
   display: flex;

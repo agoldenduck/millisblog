@@ -9,6 +9,12 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
     {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/helpers/typography`,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `content`,
