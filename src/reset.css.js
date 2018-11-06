@@ -49,7 +49,12 @@ injectGlobal`
   }
 
   ol, ul {
-    list-style: none;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  li {
+    margin-bottom: 1rem;
   }
 
   blockquote, q {
