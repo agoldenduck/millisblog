@@ -26,7 +26,7 @@ This isn’t, strictly speaking, true. For a moment, I’d been filled with hope
 
 “I guess it could be hail,” Alex concedes.
 
-But the more I look, the whiter the raindrops appear. What’s more, they’re falling slowly – much too slowly for hail. They even look to slow to be water. Barely daring to hope, I hold out a hand. A large, fluffy snowflake lands in the palm of my mitten. It shines against the black wool, then begins to melt.
+But the more I look, the whiter the raindrops appear. What’s more, they’re falling slowly – much too slowly for hail. They even look too slow to be water. Barely daring to hope, I hold out a hand. A large, fluffy snowflake lands in the palm of my mitten. It shines against the black wool for a moment, then begins to melt.
 
 “ALEX IT'S SNOW!” I yell, deranged with excitement.
 
