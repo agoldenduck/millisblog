@@ -4,7 +4,7 @@ title: Slow white rain
 date: 2018-11-18T19:32:29.643Z
 image: /images/uploads/fullsizeoutput_1888.jpeg
 ---
-I’ve been told not to get my hopes up for a white Christmas. Copenhagen is surrounded by water, which keeps the temperature milder here than it is in other places this far north. While this is ostensibly a good thing, I can’t help but be disheartened. I grew up singing along to Bing Crosby while the Christmas tree dried out in the summer heat. To me, the idea of a white Christmas is just as much a fantasy as flying reindeer and elves packing presents. I wish for snow with all my might. So when the temperature drops to five degrees Celsius I am delighted.
+I’ve been told not to get my hopes up for a white Christmas. Copenhagen is surrounded by water, which keeps the temperature milder here than it is in other places so far north. While this is ostensibly a good thing, I can’t help but be disheartened. I grew up singing along to Bing Crosby while the Christmas tree dried out in the summer heat. To me, the idea of a white Christmas is just as much a fantasy as flying reindeer and elves packing presents. I wish for snow with all my might. So when the temperature drops to five degrees Celsius I am delighted.
 
 “Only five degrees less and it could SNOW!” I tell Alex as I pull on a thermal.
 
