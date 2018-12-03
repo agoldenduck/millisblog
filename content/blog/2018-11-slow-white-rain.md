@@ -22,7 +22,7 @@ Alex looks at me skeptically, as though he knows exactly what I’m thinking.
 
 “I know that,” I snap, disappointed. “I wasn’t saying it was snowing.”
 
-This isn’t, strictly speaking, true. For a moment, I’d been filled with hope. But I realise, logically, that it’s impossible.
+This isn’t, strictly speaking, true. For a moment I’d been filled with hope. But I realise, logically, that it’s impossible.
 
 “I guess it could be hail,” Alex concedes.
 
